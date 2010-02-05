@@ -1,0 +1,6 @@
+destination: ./_site
+auto: true
+lsi: false
+pygments: false
+markdown: maruku
+permalink: date
