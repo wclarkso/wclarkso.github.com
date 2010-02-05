@@ -1,0 +1,63 @@
+---
+layout: post
+title: "Lest We Remember: Cold Boot Attacks on Encryption Keys"
+
+links:
+    - title: PDF
+      url: http://citp.princeton.edu/pub/coldboot-usenix.pdf
+    - title: Website
+      url: http://citp.princeton.edu/memory/
+    - title: Communications of the ACM
+      url: http://cacm.acm.org/magazines/2009/5/24652-lest-we-remember/fulltext
+      
+
+authors:
+    - name: J. Alex Halderman
+    - name: Seth D. Schoen
+    - name: Nadia Heninger
+    - name: William Clarkson
+    - name: William Paul
+    - name: Joe Calandrino
+    - name: Ari Feldman
+    - name: Jacob Appelbaum
+    - name: Ed Felten
+
+    
+
+abstract: > 
+    Contrary to popular assumption, DRAMs used in most modern computers 
+    retain their contents for seconds to minutes after power is lost, 
+    even at operating temperatures and even if removed from a 
+    motherboard. Although DRAMs become less reliable when they are not 
+    refreshed, they are not immediately erased, and their contents 
+    persist sufficiently for malicious (or forensic) acquisition of 
+    usable full-system memory images. We show that this phenomenon 
+    limits the ability of an operating system to protect cryptographic 
+    key material from an attacker with physical access. We use cold 
+    reboots to mount attacks on popular disk encryption systems — 
+    BitLocker, FileVault, dm-crypt, and TrueCrypt — using no special 
+    devices or materials. We experimentally characterize the extent and 
+    predictability of memory remanence and report that remanence times 
+    can be increased dramatically with simple techniques. We offer new 
+    algorithms for finding cryptographic keys in memory images and for 
+    correcting errors caused by bit decay. Though we discuss several 
+    strategies for partially mitigating these risks, we know of no 
+    simple remedy that would eliminate them. 
+    
+bibtex: >
+    @inproceedings{ coldboot:sec08,
+        title = "Lest We Remember: {C}old Boot Attacks on Encryption Keys",
+        author = "J. Alex Halderman and Seth D. Schoen and Nadia Heninger and William Clarkson and William Paul and Joseph A. Calandrino and Ariel J. Feldman and Jacob Appelbaum and Edward W. Felten",
+        booktitle = "Proc.\ 17th {USENIX} {S}ecurity {S}ymposium",
+        location = "San Jose, CA",
+        month = Jul,
+        year = 2008,
+        pages = {45--60}
+    }
+    
+details:
+    - <i>Proc. 17th USENIX Security Symposium (Sec '08)</i>, San Jose, CA, July 2008 <strong>Best Student Paper</strong>
+    - Reprinted in Communications of the ACM, May 2009
+
+---
+

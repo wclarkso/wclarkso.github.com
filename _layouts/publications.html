@@ -1,0 +1,32 @@
+---
+layout: base
+top: Will Clarkson
+---
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(function() {
+
+
+    $('a.abstract').click(function() {
+        $(this).parents('li').find('.pub-bibtex').hide();
+        $(this).parents('li').find('.pub-abstract').toggle();
+    });
+
+    $('a.bibtex').click(function() {
+        $(this).parents('li').find('.pub-abstract').hide();
+        $(this).parents('li').find('.pub-bibtex').toggle();
+    });
+
+});
+
+</script>
+
+<div id="header">
+	{% include nav-name.html %}
+</div>
+
+<div id="page">
+	{{ content }}
+</div>
+
