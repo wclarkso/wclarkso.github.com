@@ -1,5 +1,5 @@
 destination: ./_site
-auto: false
+auto: true
 lsi: false
 pygments: false
 markdown: maruku
