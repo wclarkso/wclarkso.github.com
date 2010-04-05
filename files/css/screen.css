@@ -527,7 +527,7 @@ img.maruku-png { }
 }
 
 .pub-holder {
-    margin-left: 5%;
+    margin-left: 0%;
     font-family: Georgia;
     font-size: 12px;
 }
@@ -555,6 +555,7 @@ img.maruku-png { }
 
 .pub-bibtex {
     display: none;
+	font-size: 14px;
     border-top: 1px solid #DDDDD9;
 }
 
