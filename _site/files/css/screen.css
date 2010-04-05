@@ -66,7 +66,7 @@ hr {
 sup { line-height: 1ex; }
 
 #site {
-	max-width: 46em;
+	max-width: 55em;
 	margin: 1.5em auto 3em auto;
 	line-height:1.5em;
 }
@@ -559,3 +559,37 @@ img.maruku-png { }
     border-top: 1px solid #DDDDD9;
 }
 
+.blog-date {
+	font-family: Georgia;
+	font-size: 11px;
+	color: gray;
+	font-weight: bold;
+	margin-top:1px;
+}
+
+.blog-more {
+	font-family: Georgia;
+	font-size: 15px;
+	float: right;
+}
+
+.blog-title {
+	font-family: Georgia;
+	font-size: 18px;
+	margin-right: 3px;
+	float: left;
+	color: black;
+}
+
+.blog-image {
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	display: block;
+}
+
+.blog-post {
+	
+	font-family: Arial, Verdana;
+	font-size: 12px;
+}
